@@ -1,0 +1,15 @@
+.cursor{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: rgb(10,10,10,0.2);
+    pointer-events: none;
+}
+
+.innerCursor, .outerCursor{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
